@@ -598,4 +598,6 @@ body {
   .footer-links { flex-direction: column; gap: 10px; }
   .wordmark { font-size: 11px; letter-spacing: 0.1em; white-space: nowrap; }
   .nav-cta { padding: 7px 12px; font-size: 12px; }
+  .hero h1 .h1-phrase { display: block; }
+  .hero h1 .dot { display: none; }
 }
