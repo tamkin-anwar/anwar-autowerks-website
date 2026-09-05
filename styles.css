@@ -4,7 +4,7 @@
   --line: rgba(255,255,255,0.08);
   --text: #ece9e4;
   --text-dim: #9a9a96;
-  --text-faint: #66665f;
+  --text-faint: #7e7e75;
   --accent: #c8ccc2;
   --accent-metal: #8a8f86;
   --radius: 2px;
@@ -483,6 +483,37 @@ body {
   font-size: 13px;
   color: var(--text-dim);
   min-height: 18px;
+}
+
+.form-fallback {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  background: var(--bg-alt);
+}
+
+.form-fallback p {
+  font-size: 13.5px;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+  font-weight: 300;
+}
+
+.form-fallback a {
+  color: var(--text);
+}
+
+.form-fallback-body {
+  font-family: 'SF Mono', 'Menlo', monospace;
+  font-size: 12.5px;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0 0 16px;
 }
 
 /* Footer */
