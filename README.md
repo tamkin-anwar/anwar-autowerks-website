@@ -10,8 +10,8 @@ One-page site for Anwar Autowerks, a Southern California automotive engineering 
 - A logo built from a front lower control arm, the suspension part actually called an A-arm, which already forms the letter A at real proportions
 - A Pinyon Script signature used sparingly (hero close, About sign-off), separate from the sans-serif wordmark used everywhere small
 - A contact form that posts to FormSubmit, with a mailto fallback shown only if that request actually fails
-- Three licensed reference photographs in the Vehicles We Know section, illustrating the era and marques the studio specializes in, explicitly not framed as completed studio work
 - A dark, restrained visual language on purpose: no discount branding, no generic wrench imagery, no racing graphics
+- No stock or borrowed photography anywhere on the site. Every image will be a real photo of real studio work, added once that work exists, not before
 
 ## Tech stack
 
@@ -29,14 +29,6 @@ Open `http://localhost:8642`.
 ## Status
 
 Live and customer-facing. Sections like project photos, a location and hours block, and a work journal will get added as the shop opens and there's real content for them.
-
-## Photo credits
-
-Vehicle photography in the Vehicles We Know section is used under the Unsplash License (free for commercial use).
-
-- BMW 7 Series (E38): [rigaworks](https://unsplash.com/@rigaworks)
-- Porsche 911 (964): [Enes](https://unsplash.com/@enesq)
-- Mercedes-Benz emblem: [zakariajpej](https://unsplash.com/@zakariajpej)
 
 ## Credits
 
