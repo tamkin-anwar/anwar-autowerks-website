@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
 
   const subject = `Inquiry: ${vehicle}`;
   const bodyText = `Name: ${name}\nEmail: ${email}\nVehicle: ${vehicle}\n\n${message}`;
-  const mailtoUrl = `mailto:info@anwarautowerks.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
+  const mailtoUrl = `mailto:sales@anwarautowerks.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
 
   status.textContent = 'Opening your email client...';
   fallback.hidden = true;
@@ -30,7 +30,7 @@ form.addEventListener('submit', (e) => {
     const stillHere = document.visibilityState === 'visible' && document.hasFocus();
     if (stillHere && Date.now() - openedAt >= 1400) {
       status.textContent = "Couldn't open a mail app automatically.";
-      fallbackBody.textContent = `To: info@anwarautowerks.com\nSubject: ${subject}\n\n${bodyText}`;
+      fallbackBody.textContent = `To: sales@anwarautowerks.com\nSubject: ${subject}\n\n${bodyText}`;
       fallback.hidden = false;
     } else {
       status.textContent = 'Opening your email client...';
