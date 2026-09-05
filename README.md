@@ -6,10 +6,9 @@ One-page site for Anwar Autowerks, a Southern California automotive engineering 
 
 ## What's here
 
-- A single page covering approach, services, process, vehicles, work, about, FAQ, location, and contact, all in one scroll
+- A single page covering approach, services, process, vehicles, about, FAQ, and contact, all in one scroll
 - A hand-drawn inline SVG mark used as the logo, so its stroke color follows the page theme instead of loading a static image
 - A contact form that opens a prefilled email to the studio, no backend needed yet
-- Bracketed placeholder content (address, phone, hours, founder photo, project photos) so real details can be swapped in without touching the layout
 - A dark, restrained visual language on purpose: no discount branding, no generic wrench imagery, no racing graphics
 
 ## Tech stack
@@ -27,7 +26,7 @@ Open `http://localhost:8642`.
 
 ## Status
 
-Early build. Placeholders throughout (marked with brackets) are waiting on real studio details: address, phone, hours, founder photo, and project photos.
+Live and customer-facing. Sections like project photos, a location and hours block, and a work journal will get added as the shop opens and there's real content for them.
 
 ## Credits
 

@@ -345,73 +345,14 @@ body {
   border-radius: var(--radius);
 }
 
-/* Work */
-
-.work-sub {
-  font-size: 16px;
-  color: var(--text-dim);
-  max-width: 640px;
-  font-weight: 300;
-  margin: 0 0 48px;
-}
-
-.work-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-}
-
-.placeholder-image {
-  aspect-ratio: 4 / 3;
-  background:
-    repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0 2px, transparent 2px 14px),
-    var(--bg-alt);
-  border: 1px dashed var(--line);
-  border-radius: var(--radius);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.placeholder-image span {
-  font-size: 12px;
-  letter-spacing: 0.05em;
-  color: var(--text-faint);
-  text-transform: uppercase;
-}
-
-.work-meta {
-  padding-top: 18px;
-}
-
-.work-meta h3 {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 0 0 8px;
-}
-
-.work-meta p {
-  font-size: 13.5px;
-  color: var(--text-dim);
-  font-weight: 300;
-  margin: 0;
-}
-
 /* About */
 
 .about {
   background: var(--bg-alt);
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
-  gap: 56px;
-  align-items: center;
-}
-
-.about-image {
-  aspect-ratio: 1;
+.about-wrap {
+  max-width: 720px;
 }
 
 .about-copy h3 {
@@ -475,41 +416,6 @@ body {
   margin: 16px 0 0;
   max-width: 620px;
 }
-
-/* Location */
-
-.location {
-  background: var(--bg-alt);
-}
-
-.location-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-}
-
-.location-grid h3 {
-  font-size: 13px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-faint);
-  font-weight: 500;
-  margin: 0 0 14px;
-}
-
-.location-grid p {
-  font-size: 14.5px;
-  color: var(--text-dim);
-  font-weight: 300;
-  margin: 0;
-  line-height: 1.7;
-}
-
-.location-grid a {
-  color: var(--text-dim);
-}
-
-.location-grid a:hover { color: var(--text); }
 
 /* Contact */
 
@@ -627,9 +533,5 @@ body {
   .approach-grid { grid-template-columns: 1fr; gap: 40px; }
   .section { padding: 80px 0; }
   .footer-inner { flex-direction: column; gap: 16px; align-items: flex-start; }
-  .work-grid { grid-template-columns: 1fr; }
-  .about-grid { grid-template-columns: 1fr; gap: 32px; }
-  .about-image { max-width: 320px; }
-  .location-grid { grid-template-columns: 1fr; gap: 32px; }
   .process-step { gap: 18px; }
 }
