@@ -457,6 +457,14 @@ body {
   gap: 20px;
 }
 
+.form-honey {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .form-row {
   display: flex;
   flex-direction: column;
